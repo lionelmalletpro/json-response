@@ -1,0 +1,24 @@
+{
+    "name": "lionelmalletpro/json-response",
+    "description": "To serve JSON data",
+    "keywords": ["Json", "Response", "API"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lionel Mallet",
+            "email": "lionel.mallet.pro@gmail.com",
+            "homepage": "/http://www.lionelmallet.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lmallet\\Response\\": "src/"
+        }
+    }
+}
